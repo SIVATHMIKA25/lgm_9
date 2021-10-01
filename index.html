@@ -1,0 +1,24 @@
+<!--Square and Cube of a number-->
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devoce-width",intial-scale=1">
+        <title>Squareandcube</title>
+      <script type="text/javascript">
+       function Squareandcube(){
+           var input=document.getElementById("input").value;
+           alert(input**3)
+           document.write("cube of number is: ",+(input**3),"<br />")
+           alert(input**2)
+           document.write("square of number is: ",+(input**2),"<br />")
+       }
+      </script>
+    </head>
+    <body>
+        <form>
+            <input type="text" id="input" name="input" /><br><br><br>
+            <input type="button" value="submit" onclick="Squareandcube()" />
+        </form>
+    </body>
+</html>    
